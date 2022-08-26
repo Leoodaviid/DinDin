@@ -28,7 +28,7 @@ header {
   list-style: none;
 }
 #nav > li {
-  margin-left: 37px;
+  /* margin-left: 37px; */
 }
 #nav > li a {
   text-decoration: none;
@@ -211,7 +211,7 @@ section#sobre_principal {
   align-self: center;
 }
 #conteudo {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -239,6 +239,8 @@ div.post {
   justify-content: center;
   align-items: center;
   gap: 23px;
+  height: 20vh;
+  margin: 20px;
 }
 div.post p {
   max-width: 363px;
@@ -345,6 +347,9 @@ section#hero_footer {
   #nav {
     flex-direction: column;
   }
+  #nav > li {
+    margin-left: 0;
+  }
   div#hero {
     flex-direction: column-reverse;
   }
@@ -410,5 +415,20 @@ section#hero_footer {
   }
   #sobre_principal span {
     margin: 0 auto;
+    font-size: 26px;
+  }
+  .btn_saber_mais {
+    font-size: 20px;
+  }
+  .investimento_btn {
+    padding: 15px 30px;
+  }
+  #nav > li a {
+    height: 23px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  #hero_footer span {
+    font-size: 26px;
   }
 }
