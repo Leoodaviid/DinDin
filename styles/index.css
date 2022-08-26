@@ -238,7 +238,7 @@ div.post {
   justify-content: center;
   align-items: center;
   gap: 23px;
-  height: 30vh;
+  height: 20vh;
   margin: 20px;
 }
 div.post p {
@@ -347,6 +347,7 @@ section#hero_footer {
 }
 @media screen and (max-width: 768px) {
   div.post {
+    height: auto;
     margin: 0 auto;
   }
   .post_1 {
@@ -393,7 +394,6 @@ section#hero_footer {
     font-size: 17px;
     font-weight: 300;
   }
-
   section#hero_footer {
     height: auto;
   }
@@ -417,8 +417,6 @@ section#hero_footer {
   #text_hero p {
     height: auto;
     font-size: 24px;
-    font-weight: 300;
-    color: #555555;
   }
   #footer {
     justify-content: space-around;
