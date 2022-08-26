@@ -42,28 +42,19 @@ header {
 /* ====== Footer ====== */
 footer {
   background-color: #419488;
-  display: flex;
-  justify-content: center;
 }
 #footer {
   display: flex;
-  width: 100vw;
-  /* max-width: 1440px; */
-  justify-content: space-evenly;
-  height: 207px;
+  max-width: 100%;
+  justify-content: space-between;
+  height: 99px;
   margin: auto;
-  padding: 0 128px;
-  box-sizing: border-box;
+  padding: 2%;
 }
-div#logo_footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-div#logo_footer img {
-  width: 296px;
-  height: 101.43px;
-}
+/* #footer img {
+  width: 20%;
+  height: 100px;
+} */
 div#nav_footer {
   display: flex;
   flex-direction: column;
@@ -91,7 +82,6 @@ button.btn-footer {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 51px;
   background-color: transparent;
   margin-bottom: 13px;
   padding: 14px 41px;
@@ -148,9 +138,9 @@ div#text_hero {
   border-radius: 62px;
   background-color: transparent;
 }
-/* ========= Hero_principal Final =========*/
 
 /* ====== Section Cursos ====== */
+
 section#modos_financa {
   height: 730px;
   background-color: #f7f7f7;
@@ -165,7 +155,7 @@ section#modos_financa {
   align-items: center;
   align-content: center;
   text-align: center;
-  gap: 10px;
+  padding: 2%;
 }
 /* ====== Img > section Cursos ====== */
 #poupando {
@@ -210,12 +200,15 @@ section#sobre_principal {
   background-color: #fdfdfd;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10% 80%;
+  grid-template-rows: 20% 80%;
 }
 #sobre_principal span {
+  width: 50%;
+  height: auto;
   font-size: 37px;
   color: #009688;
-  margin: 2% auto 2% 10%;
+  text-align: center;
+  align-self: center;
 }
 #conteudo {
   width: 100%;
@@ -255,7 +248,7 @@ div.post p {
 /* ====== Hero footer Princ ====== */
 section#hero_footer {
   width: 100%;
-  height: 730px;
+  height: 100%;
   background: #e5e5e5;
   display: grid;
   align-items: center;
@@ -383,7 +376,6 @@ section#hero_footer {
   #hero_footer span {
     width: 100%;
     margin: 0 auto;
-    padding: 2%;
   }
   .btn_todos_post {
     margin: 3% auto;
@@ -401,6 +393,9 @@ section#hero_footer {
     font-weight: 300;
     color: #555555;
   }
+  #footer {
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 468px) {
@@ -412,5 +407,8 @@ section#hero_footer {
   }
   #nav {
     row-gap: 5px;
+  }
+  #sobre_principal span {
+    margin: 0 auto;
   }
 }
