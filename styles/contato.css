@@ -96,7 +96,7 @@ textarea {
   width: 100%;
 }
 #img-form {
-  max-width: 40%;
+  max-width: 444px;
   height: 444px;
 }
 /* ====== Footer ====== */
@@ -173,7 +173,8 @@ button.btn-footer {
     display: none;
   }
   #img-form {
-    width: 50%;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -185,8 +186,8 @@ button.btn-footer {
     flex-direction: column;
   }
   #img-form {
-    max-width: 50%;
-    max-height: 30%;
+    width: 350px;
+    height: 350px;
   }
   #formulario div {
     width: 100%;
@@ -196,9 +197,6 @@ button.btn-footer {
 @media screen and (max-width: 468px) {
   div#nav_footer {
     display: none;
-  }
-  #header {
-    justify-content: space-around;
   }
   #nav {
     row-gap: 5px;

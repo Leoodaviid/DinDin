@@ -258,9 +258,6 @@ button.btn-footer {
   div#nav_footer {
     display: none;
   }
-  #header {
-    justify-content: space-around;
-  }
   #nav {
     row-gap: 5px;
   }

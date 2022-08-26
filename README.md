@@ -4,7 +4,8 @@
 
 <h5>📌Sobre o desafio:</h5>  
 
-<h6>Desafio prposto pela Gama Academy para a turma 45 [Hacker] Desafio consiste em vivenciar a expêriencia de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS. <h6>
+<h6>Primeiro Desafio proposto pela Gama Academy para a turma 45 [Hacker] Desafio consiste em vivenciar a expêriencia de construir um site institucional do zero e colocar em prática tudo que aprendemos até o momento sobre HTML e CSS. <h6>
+
 
 <h5> ❗Integrantes do Grupo:</h5>
 

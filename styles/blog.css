@@ -200,9 +200,6 @@ button.btn-footer {
 }
 
 @media screen and (max-width: 468px) {
-  #header {
-    justify-content: space-around;
-  }
   #nav {
     row-gap: 5px;
   }
