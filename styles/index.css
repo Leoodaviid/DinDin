@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+/* ====== Header / Nav ====== */
+header {
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+#header {
+  max-width: 100%;
+  height: 117px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+#nav > li {
+  margin-left: 37px;
+}
+#nav > li a {
+  text-decoration: none;
+  color: #fdfdfd;
+  height: 23px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* ====== Footer ====== */
+footer {
+  background-color: #419488;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  display: flex;
+  width: 100vw;
+  /* max-width: 1440px; */
+  justify-content: space-evenly;
+  height: 207px;
+  margin: auto;
+  padding: 0 128px;
+  box-sizing: border-box;
+}
+div#logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#logo_footer img {
+  width: 296px;
+  height: 101.43px;
+}
+div#nav_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div#nav_footer li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+div#links_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 289px;
+  /* text-align: center; */
+}
+button.btn-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 51px;
+  background-color: transparent;
+  margin-bottom: 13px;
+  padding: 14px 41px;
+  border-radius: 62px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/*< ========= Hero_principal ========= > */
+section#hero_principal {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#hero {
+  width: 100%;
+  height: 712px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+div#hero img {
+  max-width: 70%;
+}
+div#text_hero {
+  width: 30%;
+  height: auto;
+}
+#text_hero span {
+  width: 30%;
+  color: #ff4081;
+  font-size: 60px;
+}
+#text_hero p {
+  height: auto;
+  font-size: 27px;
+  font-weight: 400;
+  color: #555555;
+}
+.btn_saber_mais {
+  padding: 8px 26px;
+  font-size: 27px;
+  font-weight: 400;
+  color: #ff4081;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  background-color: transparent;
+}
+/* ========= Hero_principal Final =========*/
+
+/* ====== Section Cursos ====== */
+section#modos_financa {
+  height: 730px;
+  background-color: #f7f7f7;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.modos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 10px;
+}
+/* ====== Img > section Cursos ====== */
+#poupando {
+  width: 288px;
+  height: 270px;
+}
+#investimento {
+  width: 338px;
+  height: 270px;
+}
+#idependencia {
+  width: 187px;
+  height: 270px;
+}
+/*====== Texto > Sessão cursos ====== */
+.text-courses-princ {
+  width: 344px;
+  height: 29px;
+  font-size: 25px;
+  color: #ff4081;
+}
+.introduction-courses {
+  font-size: 17px;
+  font-weight: 300;
+  width: 293px;
+  height: 60px;
+}
+/*====== Buttom -> Section -> Egresso ====== */
+.investimento_btn {
+  padding: 15px 50px;
+  border-radius: 62px;
+  border: none;
+  background-color: #ff4081;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ====== Section Post sobre ===== */
+section#sobre_principal {
+  width: 100%;
+  height: 730px;
+  background-color: #fdfdfd;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 80%;
+}
+#sobre_principal span {
+  font-size: 37px;
+  color: #009688;
+  margin: 2% auto 2% 10%;
+}
+#conteudo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.post_1 {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.post_2 {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+div.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+div.post p {
+  max-width: 363px;
+  font-size: 18px;
+  font-weight: 300;
+}
+/* ====== Hero footer Princ ====== */
+section#hero_footer {
+  width: 100%;
+  height: 730px;
+  background: #e5e5e5;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+#hero_footer span {
+  width: 50%;
+  height: auto;
+  font-size: 37px;
+  color: #009688;
+  text-align: center;
+  align-self: center;
+}
+#blog_posts_footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.post_footer {
+  width: 33% 33% 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post_footer img {
+  width: 67.5%;
+  height: 193px;
+  background: #c4c4c4;
+}
+.post_footer h3 {
+  width: 67.5%;
+  height: auto;
+  font-size: 27px;
+  font-weight: 700;
+  color: #009688;
+  margin-top: 2%;
+}
+.post_footer p {
+  width: 67.5%;
+  /* height: 80px; */
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 2%;
+}
+
+.btn_todos_post {
+  margin: 0 auto;
+  height: 51px;
+  padding: 10px 41px;
+  background-color: transparent;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  color: #ff4081;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* ====== Responsividade ====== */
+/* ====== Responsividade ====== */
+
+@media screen and (max-width: 1100px) {
+  .post_footer img {
+    width: 90%;
+  }
+  .post_footer h3 {
+    width: 90%;
+  }
+  .post_footer p {
+    width: 90%;
+  }
+  section#modos_financa {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div#links_footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 805px) {
+  div#hero img {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #nav > li {
+    margin: 0 auto;
+  }
+  #nav {
+    flex-direction: column;
+  }
+  div#hero {
+    flex-direction: column-reverse;
+  }
+  section#sobre_principal {
+    width: 100%;
+    grid-template-rows: 10%;
+  }
+  #sobre_principal span {
+    margin: 4% auto;
+  }
+  #conteudo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .post_1 {
+    max-width: 100%;
+  }
+  .post_2 {
+    max-width: 100%;
+  }
+  section#hero_footer {
+    height: auto;
+  }
+  #blog_posts_footer {
+    grid-template-columns: 1fr;
+  }
+  #hero_footer span {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  .btn_todos_post {
+    margin: 3% auto;
+  }
+  div#text_hero {
+    width: 90%;
+    text-align: center;
+  }
+  #text_hero span {
+    font-size: 50px;
+  }
+  #text_hero p {
+    height: auto;
+    font-size: 24px;
+    font-weight: 300;
+    color: #555555;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  div#nav_footer {
+    display: none;
+  }
+  #header {
+    justify-content: space-around;
+  }
+  #nav {
+    row-gap: 5px;
+  }
+}

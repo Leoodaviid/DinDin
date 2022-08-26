@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: "Ubuntu";
+}
+/* ====== Header / Nav ====== */
+header {
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+#header {
+  max-width: 100%;
+  height: 117px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+#nav > li {
+  margin-left: 37px;
+}
+#nav > li a {
+  text-decoration: none;
+  color: #fdfdfd;
+  height: 23px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* ====== Footer ====== */
+footer {
+  background-color: #419488;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  display: flex;
+  width: 100vw;
+  /* max-width: 1440px; */
+  justify-content: space-evenly;
+  height: 207px;
+  margin: auto;
+  padding: 0 128px;
+  box-sizing: border-box;
+}
+div#logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#logo_footer img {
+  width: 296px;
+  height: 101.43px;
+}
+div#nav_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div#nav_footer li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+div#links_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 289px;
+  /* text-align: center; */
+}
+button.btn-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 51px;
+  background-color: transparent;
+  margin-bottom: 13px;
+  padding: 14px 41px;
+  border-radius: 62px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* ====== Blog ====== */
+#blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#blog h1 {
+  max-width: 72.5%;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff4081;
+  margin-top: 111px;
+}
+#blog span {
+  max-width: 200px;
+  height: 21px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  color: #9d9d9d;
+  margin: 12px auto 74px auto;
+}
+#blog img {
+  background-color: #c4c4c4;
+  width: 72.5%;
+  height: 465px;
+  margin: 0 auto;
+}
+#blog p {
+  width: 72.5%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+}
+#blog h2 {
+  width: 72.5%;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: 500;
+  color: #419488;
+  text-align: flex-start;
+}
+/* ====== section Conheça ====== */
+#conheca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.todos-cursos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 137px; */
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  margin-bottom: 100px;
+}
+#conheca h3 {
+  height: 35.71;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff4081;
+  margin: 79px auto 101px auto;
+}
+.courses h4 {
+  max-width: 77.3%;
+  height: 36px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ff4081;
+  margin: 49px auto 28.32px auto;
+}
+.courses p {
+  max-width: 61.8%;
+  height: 74px;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.link-investimento {
+  width: 233px;
+  height: 62.81px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fdfdfd;
+  text-align: center;
+
+  border: none;
+  border-radius: 62px;
+  padding: 18.47px 8px;
+  background: #ff4081;
+}
+#img-investimento {
+  width: 288px;
+  height: 279.06px;
+}
+#img-poupanca {
+  width: 238px;
+  height: 279.06px;
+}
+#img-independencia {
+  width: 187px;
+  height: 279.06px;
+}
+
+/* ====== Responsividade ====== */
+
+@media screen and (max-width: 1200px) {
+  #formulario {
+    width: 100%;
+    flex-direction: column;
+  }
+  #formulario div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 940px) {
+  div#links_footer {
+    display: none;
+  }
+  #img-form {
+    width: 50%;
+  }
+  .todos-cursos {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #nav > li {
+    margin: 0 auto;
+  }
+  #nav {
+    flex-direction: column;
+  }
+  #img-form {
+    max-width: 50%;
+    max-height: 30%;
+  }
+  #formulario div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  div#nav_footer {
+    display: none;
+  }
+  #header {
+    justify-content: space-around;
+  }
+  #nav {
+    row-gap: 5px;
+  }
+}
