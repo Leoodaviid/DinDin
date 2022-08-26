@@ -198,9 +198,6 @@ button.btn-footer {
   div#nav_footer {
     display: none;
   }
-  #nav {
-    row-gap: 5px;
-  }
   #img-form {
     width: 300px;
     height: 300px;
