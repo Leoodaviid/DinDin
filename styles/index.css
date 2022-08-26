@@ -43,12 +43,18 @@ header {
 /* ====== Footer ====== */
 footer {
   background-color: #419488;
+  height: 207px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  justify-content: space-between;
 }
 #footer {
+  width: 90%;
   display: flex;
-  max-width: 90%;
-  justify-content: space-between;
-  height: 99px;
+  justify-content: space-around;
+  align-content: center;
   margin: 0 auto;
   padding: 2%;
 }
@@ -77,17 +83,20 @@ div#links_footer {
 }
 button.btn-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   width: 100%;
   background-color: transparent;
-  margin-bottom: 13px;
-  padding: 14px 41px;
+  padding: 10px 41px;
   border-radius: 62px;
   border-style: solid;
   border-color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
+  margin-top: 5px;
 }
 /*< ========= Hero_principal ========= > */
 
