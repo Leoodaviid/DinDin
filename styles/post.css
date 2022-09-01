@@ -242,8 +242,11 @@ button.btn-footer {
   #nav > li {
     margin: 0 auto;
   }
-  #nav {
+  #header {
     flex-direction: column;
+  }
+  #nav {
+    gap: 30px;
   }
   #img-form {
     max-width: 50%;

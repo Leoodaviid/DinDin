@@ -182,15 +182,18 @@ button.btn-footer {
   #nav > li {
     margin: 0 auto;
   }
-  #nav {
+  #header {
     flex-direction: column;
+  }
+  #nav {
+    gap: 30px;
   }
   #img-form {
     width: 350px;
     height: 350px;
   }
   #formulario div {
-    width: 100%;
+    width: 80%;
   }
 }
 

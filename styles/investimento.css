@@ -222,8 +222,11 @@ div#links_footer {
   #nav > li {
     margin: 0 auto;
   }
-  #nav {
+  #header {
     flex-direction: column;
+  }
+  #nav {
+    gap: 30px;
   }
   .conteudo_aulas {
     width: 100%;
@@ -238,9 +241,6 @@ div#links_footer {
 }
 
 @media screen and (max-width: 468px) {
-  #nav {
-    row-gap: 5px;
-  }
   div#nav_footer {
     display: none;
   }

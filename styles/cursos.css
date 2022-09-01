@@ -225,8 +225,12 @@ button.btn-footer {
   div#nav_footer {
     display: none;
   }
+  #header {
+    flex-direction: column;
+  }
   #nav {
-    row-gap: 5px;
+    flex-direction: row;
+    gap: 30px;
   }
   .container {
     padding: 10px 10px;

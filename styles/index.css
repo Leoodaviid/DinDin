@@ -373,11 +373,15 @@ section#hero_footer {
 
 @media screen and (max-width: 668px) {
   #nav {
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 0 auto;
+    max-width: 100%;
+    gap: 35px;
   }
   #nav > li {
     margin-left: 0;
+
+    /* margin: 15px; */
   }
   div#hero {
     flex-direction: column-reverse;
@@ -437,6 +441,7 @@ section#hero_footer {
     display: none;
   }
   #header {
+    flex-direction: column;
     justify-content: space-around;
     max-width: 100%;
   }
