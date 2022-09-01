@@ -372,16 +372,17 @@ section#hero_footer {
 }
 
 @media screen and (max-width: 668px) {
+  #header {
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+  }
   #nav {
     /* flex-direction: column; */
     margin: 0 auto;
     max-width: 100%;
-    gap: 35px;
-  }
-  #nav > li {
-    margin-left: 0;
-
-    /* margin: 15px; */
+    padding: 0;
+    /* gap: 30px; */
   }
   div#hero {
     flex-direction: column-reverse;
@@ -434,19 +435,15 @@ section#hero_footer {
   #footer {
     justify-content: space-around;
   }
+  #poupando,
+  #investimento,
+  #independencia {
+  }
 }
 
 @media screen and (max-width: 468px) {
   div#nav_footer {
     display: none;
-  }
-  #header {
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 100%;
-  }
-  #nav {
-    row-gap: 5px;
   }
   #sobre_principal span {
     margin: 0 auto;
@@ -465,5 +462,9 @@ section#hero_footer {
   }
   #hero_footer span {
     font-size: 26px;
+  }
+  .modos {
+    width: 100%;
+    margin: 10px;
   }
 }
