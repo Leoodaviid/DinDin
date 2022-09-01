@@ -191,6 +191,9 @@ button.btn-footer {
   }
 }
 @media screen and (max-width: 668px) {
+  #blog-page img {
+    width: 90%;
+  }
   #nav > li {
     margin: 0 auto;
   }
