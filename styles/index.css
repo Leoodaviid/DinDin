@@ -374,15 +374,16 @@ section#hero_footer {
 @media screen and (max-width: 668px) {
   #header {
     flex-direction: column;
-    justify-content: space-around;
-    max-width: 100%;
+    width: 100%;
   }
   #nav {
-    /* flex-direction: column; */
-    margin: 0 auto;
-    max-width: 100%;
+    margin: 0;
+    width: 100%;
     padding: 0;
-    /* gap: 30px; */
+    gap: 30px;
+  }
+  #nav > li {
+    margin-left: 0px;
   }
   div#hero {
     flex-direction: column-reverse;
@@ -435,10 +436,6 @@ section#hero_footer {
   #footer {
     justify-content: space-around;
   }
-  #poupando,
-  #investimento,
-  #independencia {
-  }
 }
 
 @media screen and (max-width: 468px) {
@@ -454,11 +451,6 @@ section#hero_footer {
   }
   .investimento_btn {
     padding: 15px 30px;
-  }
-  #nav > li a {
-    height: 23px;
-    font-size: 18px;
-    font-weight: 700;
   }
   #hero_footer span {
     font-size: 26px;
