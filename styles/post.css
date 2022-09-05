@@ -248,6 +248,12 @@ button.btn-footer {
   #nav {
     gap: 30px;
   }
+  #blog img {
+    width: 90%;
+  }
+  #blog p {
+    width: 90%;
+  }
   #img-form {
     max-width: 50%;
     max-height: 30%;

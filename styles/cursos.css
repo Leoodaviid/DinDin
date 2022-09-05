@@ -196,12 +196,17 @@ button.btn-footer {
   }
 }
 @media screen and (max-width: 668px) {
+  #header {
+    flex-direction: column;
+  }
+  #nav {
+    /* flex-direction: row; */
+    gap: 30px;
+  }
   #nav > li {
     margin: 0 auto;
   }
-  #nav {
-    flex-direction: column;
-  }
+
   .container {
     flex-wrap: wrap;
     gap: 20px;
@@ -225,13 +230,7 @@ button.btn-footer {
   div#nav_footer {
     display: none;
   }
-  #header {
-    flex-direction: column;
-  }
-  #nav {
-    flex-direction: row;
-    gap: 30px;
-  }
+
   .container {
     padding: 10px 10px;
   }
